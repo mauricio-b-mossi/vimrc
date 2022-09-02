@@ -2,10 +2,8 @@ noremap j h
 noremap k j
 noremap l k
 noremap ; l
-noremap <C-s> :w<CR>
-noremap <C-x> :wq<CR>
-noremap <leader>] $
-noremap <leader>[ 0
+noremap ' ;
+noremap <S-y> y$
 inoremap jj <Esc>
 
 inoremap {<cr> {<cr>}<c-o><s-o>
